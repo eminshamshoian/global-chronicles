@@ -49,9 +49,11 @@ export default function Home({ posts }: Props) {
           <h2 className='text-4xl pb-10'>
             Discover stories, thinking, and expertise from writers on any topic.
           </h2>
-          <h3 className='text-white bg-black px-4 py-2 rounded-full w-64 text-center text-2xl'>
-            Start Reading
-          </h3>
+          <Link href='/'>
+            <h3 className='text-white bg-black px-4 py-2 rounded-full w-64 text-center text-2xl cursor-pointer'>
+              Start Reading
+            </h3>
+          </Link>
         </div>
         <img
           className='hidden md:inline-flex h-32 lg:h-full max-w-7xl mx-auto'

@@ -14,11 +14,17 @@ function Header() {
           </Link>
         </div>
         <div className='flex items-center space-x-5'>
-          <h3 className=''>Our Story</h3>
-          <h3>Membership</h3>
-          <h3 className='text-white bg-black px-4 py-1 rounded-full'>
-            Get Started
-          </h3>
+          <Link href='/'>
+            <h3 className='cursor-pointer'>Our Story</h3>
+          </Link>
+          <Link href='/'>
+            <h3 className='cursor-pointer'>Membership</h3>
+          </Link>
+          <Link href='/'>
+            <h3 className='text-white bg-black px-4 py-1 rounded-full cursor-pointer'>
+              Get Started
+            </h3>
+          </Link>
         </div>
       </header>
     </div>
