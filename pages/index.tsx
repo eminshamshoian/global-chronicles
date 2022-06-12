@@ -37,27 +37,27 @@ export default function Home({ posts }: Props) {
   return (
     <div>
       <Head>
-        <title>Medium Clone</title>
+        <title>Global Chronicles</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <Header />
 
-      <div className='flex justify-between items-center bg-yellow-400 border-y border-black py-10 lg:py-0'>
+      <div className='flex justify-between items-center bg-red-100 border-y k py-10 lg:py-0'>
         <div className='px-10 space-y-5 max-w-7xl mx-auto'>
-          <h1 className='text-8xl max-w-xl font-serif'>Stay curious.</h1>
+          <h1 className='text-6xl max-w-xl font-serif'>Global Chronitlces</h1>
           <h2 className='text-4xl pb-10'>
-            Discover stories, thinking, and expertise from writers on any topic.
+            A blog about discovery of global events and much more.
           </h2>
           <Link href='/'>
             <h3 className='text-white bg-black px-4 py-2 rounded-full w-64 text-center text-2xl cursor-pointer'>
-              Start Reading
+              Discover
             </h3>
           </Link>
         </div>
         <img
-          className='hidden md:inline-flex h-32 lg:h-full max-w-7xl mx-auto'
-          src='banner.png'
+          className='hidden md:inline-flex h-32 lg:h-1/3 max-w-7xl mx-auto p-40'
+          src='banner.jpg'
           alt='banner'
         />
       </div>
@@ -92,7 +92,7 @@ export default function Home({ posts }: Props) {
       </div>
 
       {/* CTA */}
-      <div className='bg-yellow-400'>
+      <div className='bg-red-100'>
         <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between'>
           <h2 className='text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
             <span className='block'>Want to learn more about medium?</span>

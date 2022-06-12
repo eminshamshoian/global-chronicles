@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className='p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-800'>
       <div className='sm:flex sm:items-center sm:justify-between'>
         <a href='#' className='flex items-center mb-4 sm:mb-0'>
-          <img src='logo.png' className='mr-3 h-8' alt='Flowbite Logo' />
+          <h1 className='text-4xl font-bold'>Global Chronicles</h1>
         </a>
         <ul className='flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400'>
           <li>
@@ -32,7 +32,7 @@ export const Footer = () => {
       <span className='block text-sm text-gray-500 sm:text-center dark:text-gray-400'>
         © 2022{" "}
         <a href='#' className='hover:underline'>
-          Medium Clone
+          Global Chronicles
         </a>
         . All Rights Reserved.
       </span>

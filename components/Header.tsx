@@ -2,23 +2,18 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className='bg-yellow-400'>
+    <div className='bg-red-100 border-b-2 border-black'>
       <header className='flex justify-between p-5 max-w-7xl mx-auto'>
         <div>
           <Link href='/'>
-            <img
-              className='w-44 object-contain cursor-pointer'
-              src='logo.png'
-              alt=''
-            />
+            <h1 className='text-4xl font-bold cursor-pointer'>
+              Global Chronicles
+            </h1>
           </Link>
         </div>
         <div className='flex items-center space-x-5'>
           <Link href='#about'>
             <h3 className='cursor-pointer hidden md:block'>Our Story</h3>
-          </Link>
-          <Link href='/'>
-            <h3 className='cursor-pointer hidden md:block'>Membership</h3>
           </Link>
           <Link href='/'>
             <h3 className='text-white bg-black px-4 py-1 rounded-full cursor-pointer'>

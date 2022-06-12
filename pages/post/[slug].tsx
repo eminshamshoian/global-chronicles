@@ -13,7 +13,7 @@ interface Props {
 function Post({ post }: Props) {
   return (
     <main>
-      <div className='bg-yellow-400'>
+      <div className='bg-red-100'>
         <header className='flex justify-between p-5 max-w-7xl mx-auto'>
           <div>
             <Link href='/'>
